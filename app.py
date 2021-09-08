@@ -38,3 +38,5 @@ engine = create_engine('postgresql://ywjatqzfybsppl:c41a3ff31a8806e65e2e11c0c168
 df.to_sql('vagas', engine, if_exists='append')
 
 print(df[['ÁREA', 'MODALIDADE']].groupby('ÁREA'))
+
+# print('comente')
